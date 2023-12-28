@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block container %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+<p class="m-4">Welcome to "Savor Haven," where culinary artistry meets warm hospitality.
+ Nestled in the heart of the city, our restaurant invites you to indulge in a 
+ symphony of flavors carefully crafted by our skilled chefs. Immerse yourself 
+ in a cozy and chic ambiance, perfect for intimate dinners or lively gatherings with friends.
+  At Savor Haven, we take pride in using locally sourced, fresh ingredients to create 
+  a diverse menu that caters to every palate. From mouthwatering appetizers to decadent desserts,
+   each dish is a celebration of creativity and passion. Join us for an unforgettable dining experience, 
+   where every bite tells a story of dedication to the art of gastronomy.</p>
+   <img class="about-img" src="{% static 'image/about.jpeg' %}" alt="">
+{% endblock  %}

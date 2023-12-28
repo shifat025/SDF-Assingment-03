@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/first.css' %}">
+<div class="d-flex col-6 align-items-center">
+    <h1 class="welcome">Welcome to our Resturant</h1>
+    <img class="welcome-img" src="{% static 'image/welcome.jpg' %}" alt=""> 
+</div>
+{% endblock  %}

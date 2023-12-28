@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% load static %}
+{% block container %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+<h1 class="home_page">Our Resturant Home Page</h1>
+<div class="home-img">
+    <img class="p-2" src="{% static 'image/resturant.jpg' %}" alt="">
+    <img class="food p-2"src="{% static 'image/food.jpeg' %}" alt="">
+</div>
+{% endblock  %}
